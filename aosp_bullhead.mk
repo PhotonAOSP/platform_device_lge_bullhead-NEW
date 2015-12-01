@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Inherit photon-specific board config
+include device/lge/bullhead/BoardConfigPhoton.mk
+
 # Sample: This is where we'd set a backup provider if we had one
 # $(call inherit-product, device/sample/products/backup_overlay.mk)
 
